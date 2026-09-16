@@ -28,9 +28,9 @@
         gutter: 8pt,
         row-gutter: 0.8em,
         align: (center + horizon, left + horizon),
-        icon("/icons/mail.svg"), link("mailto:schkurkonicolas@gmail.com")[#text(fill: left-text-color)[schkurkonicolas\@gmail.com]],
-        icon("/icons/users.svg"), link("https://www.linkedin.com/in/nicolas-schkurko")[#text(fill: left-text-color)[LinkedIn]],
-        icon("/icons/map-pin.svg"), text(fill: left-text-color)[Buenos Aires, Argentina]
+        icon("icons/mail.svg"), link("mailto:schkurkonicolas@gmail.com")[#text(fill: left-text-color)[schkurkonicolas\@gmail.com]],
+        icon("icons/users.svg"), link("https://www.linkedin.com/in/nicolas-schkurko")[#text(fill: left-text-color)[LinkedIn]],
+        icon("icons/map-pin.svg"), text(fill: left-text-color)[Buenos Aires, Argentina]
       )
 
       #v(0.5em)
@@ -44,7 +44,7 @@
       #v(0.5em)
 
       *Software Development* \
-      Golang, NextJS, C, C++, Java, JavaScript, Kotlin.
+      Golang, NextJS, C, C++, Java, JavaScript.
       #v(0.5em)
 
       *AI & Automation* \
@@ -66,7 +66,7 @@
 
   // ================= RIGHT COLUMN =================
   [
-    #pad(x: 1.0cm, top: 1.5cm, bottom: 1.5cm)[
+    #pad(x: 1.0cm, top: 2.5cm, bottom: 1.5cm)[
       = Professional Profile
       #v(0.5em)
       Software Developer and Information Systems Engineering student, focused on understanding problems and delivering effective technological solutions. Experienced in designing scalable systems, automating processes, and developing integrations to optimize operations and communication flows, adapting to the specific needs of each project.
@@ -92,16 +92,16 @@
       = Featured Projects
 
       #role(link("https://github.com/NicolasSchkurko/TPddsw-UTNFRBA-tiendasol-2025")[E-Commerce Platform (Node.js / React)])
-      Co-developed a Full Stack Serverless application, participating in the setup of CI/CD pipelines and non-relational data modeling in MongoDB.
+      Co-developed a Full Stack Serverless application, participating in the setup of CI/CD pipelines and non-relational data modeling.
 
       #role(link("https://github.com/NicolasSchkurko/DDS-tpa-2025-12")[NGO Collaborative Mapping (Java)])
-      Co-built a comprehensive platform applying MVC architecture. Implemented MySQL persistence, Full-Text searches, and asynchronous tasks to meet client requirements.
+      Co-built a comprehensive platform applying MVC architecture. Implemented MySQL persistence and Full-Text searches.
 
       #role(link("https://github.com/pdepjm/2024-o-tpjuego-ahmeestancodeando")[Video Game Development (Wollok)])
-      Collaboratively programmed an application applying advanced OOP concepts. Awarded the "Most Creative Adaptation" special mention in the inter-university Wollok Game 2024 contest, excelling in innovation and joint technical resolution.
+      Collaboratively programmed a video game applying advanced OOP concepts. Awarded the "Most Creative Adaptation" special mention in the inter-university Wollok Game 2024 contest.
 
       #role(link("https://github.com/NicolasSchkurko/Controlador_Termotanque_Solar_PF_ISJ/tree/main")[IoT Monitoring System (C / C++)])
-      Co-designed hardware and firmware for solar water heater control, resolving web telemetry integration between microcontrollers (ESP8266 and ATmega328p) via serial protocol.
+      Co-designed hardware and firmware for solar water heater control, resolving web telemetry integration between microcontrollers via serial protocol.
 
       = Education
 
