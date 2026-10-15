@@ -11,7 +11,8 @@ This repository contains the source code for my personal CV, built using [Typst]
 
 ## File Structure
 
-* `cv.typ`: Main file containing the grid layout (32%/68%) and profile content.
+* `cv.typ`: Main file containing the grid layout (32%/68%) and profile content (English).
+* `cv-spanish.typ`: Spanish version of the same CV.
 * `blocks.typ`: Layout configuration, color variables, and helper functions to automate entry generation.
 * `/icons/`: Directory designated for vector icons used in the contact section.
 * `userPhoto.jpg`: Profile picture placeholder (replace with your own).
@@ -23,10 +24,11 @@ This repository contains the source code for my personal CV, built using [Typst]
 3. Modify the color palette in `blocks.typ` if desired.
 4. Replace the personal data, experience, and projects in `cv.typ`.
 5. Update `userPhoto.jpg` with your own profile picture and ensure your SVG icons are in the `/icons/` directory.
-6. Compile the document by running the following command in your terminal:
+6. Compile the document with the Typst CLI:
 
 ```bash
-typst compile cv.typ
+typst compile cv.typ cv-english.pdf          # English version
+typst compile cv-spanish.typ cv-spanish.pdf  # Spanish version
 ```
 
 ## License

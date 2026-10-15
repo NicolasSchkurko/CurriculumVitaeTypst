@@ -30,6 +30,7 @@
         align: (center + horizon, left + horizon),
         icon("icons/mail.svg"), link("mailto:schkurkonicolas@gmail.com")[#text(fill: left-text-color)[schkurkonicolas\@gmail.com]],
         icon("icons/users.svg"), link("https://www.linkedin.com/in/nicolas-schkurko")[#text(fill: left-text-color)[LinkedIn]],
+        icon("icons/github.svg"), link("https://github.com/NicolasSchkurko")[#text(fill: left-text-color)[GitHub]],
         icon("icons/map-pin.svg"), text(fill: left-text-color)[Buenos Aires, Argentina]
       )
 
@@ -44,7 +45,7 @@
       #v(0.5em)
 
       *Software Development* \
-      Golang, NextJS, C, C++, Java, JavaScript.
+      Java, Spring Boot, Golang, NextJS, C, C++, JavaScript.
       #v(0.5em)
 
       *AI & Automation* \
@@ -94,8 +95,14 @@
       #role(link("https://github.com/NicolasSchkurko/TPddsw-UTNFRBA-tiendasol-2025")[E-Commerce Platform (Node.js / React)])
       Co-developed a Full Stack Serverless application, participating in the setup of CI/CD pipelines and non-relational data modeling.
 
+      #role(link("https://github.com/NicolasSchkurko/TPA-G3-DDS-2026")[Donations Platform — Microservices (Java / Spring Boot)])
+      Co-developed a four-service platform (donations, incentives, notifications and logistics) with one database per service, RabbitMQ integration and per-module CI, plus a documented technical backlog.
+
       #role(link("https://github.com/NicolasSchkurko/DDS-tpa-2025-12")[NGO Collaborative Mapping (Java)])
       Co-built a comprehensive platform applying MVC architecture. Implemented MySQL persistence and Full-Text searches.
+
+      #role(link("https://github.com/NicolasSchkurko/limit-switch")[Limit-Switch — Google Forms Add-on (Google Apps Script)])
+      Built a free add-on that caps form responses with concurrency-safe handling, per-form settings and bilingual documentation; prepared for Marketplace publication.
 
       #role(link("https://github.com/pdepjm/2024-o-tpjuego-ahmeestancodeando")[Video Game Development (Wollok)])
       Collaboratively programmed a video game applying advanced OOP concepts. Awarded the "Most Creative Adaptation" special mention in the inter-university Wollok Game 2024 contest.
