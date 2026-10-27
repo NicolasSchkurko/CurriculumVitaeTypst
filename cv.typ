@@ -8,17 +8,17 @@
   // ================= LEFT COLUMN =================
   [
     #set text(fill: left-text-color)
-    #pad(x: 0.6cm, top: 2cm, bottom: 1.5cm)[
+    #pad(x: 0.6cm, top: 1.2cm, bottom: 1.0cm)[
       #align(center)[
-        #box(width: 4.4cm, height: 4.4cm, radius: 50%, clip: true, stroke: 1.5pt + white)[
+        #box(width: 4.2cm, height: 4.2cm, radius: 50%, clip: true, stroke: 1.5pt + white)[
           #image("userPhoto.jpg", width: 100%, height: 100%, fit: "cover")
         ]
-        #v(1em)
+        #v(0.8em)
         #text(size: 18pt, weight: "bold")[Nicolás\ Schkurko] \
         #v(0.3em)
-        #text(size: 11pt)[Software Developer]
+        #text(size: 10.5pt)[Software Developer]
       ]
-      #v(2em)
+      #v(1.2em)
 
       #align(center)[#text(size: 11pt, weight: "bold")[Contact]]
       #line(length: 100%, stroke: 1pt + white)
@@ -26,89 +26,79 @@
       #grid(
         columns: (auto, 1fr),
         gutter: 8pt,
-        row-gutter: 0.8em,
+        row-gutter: 0.7em,
         align: (center + horizon, left + horizon),
         icon("icons/mail.svg"), link("mailto:schkurkonicolas@gmail.com")[#text(fill: left-text-color)[schkurkonicolas\@gmail.com]],
         icon("icons/users.svg"), link("https://www.linkedin.com/in/nicolas-schkurko")[#text(fill: left-text-color)[LinkedIn]],
         icon("icons/github.svg"), link("https://github.com/NicolasSchkurko")[#text(fill: left-text-color)[GitHub]],
-        icon("icons/map-pin.svg"), text(fill: left-text-color)[Buenos Aires, Argentina]
+        icon("icons/globe.svg"), link("https://nschkurko.com")[#text(fill: left-text-color)[nschkurko.com]],
+        icon("icons/map-pin.svg"), text(fill: left-text-color)[Buenos Aires, Argentina \ (Remote)]
       )
 
-      #v(0.5em)
-      #align(center)[#text(size: 11pt, weight: "bold")[Skills]]
+      #v(0.6em)
+      #align(center)[#text(size: 11pt, weight: "bold")[Key Skills]]
       #line(length: 100%, stroke: 1pt + white)
+
+      *AI & Autonomous Agents* \
+      #text(size: 8.5pt)[LLMs (OpenAI, Claude), Agent Architecture, Evaluation Harness, Context Management, RAG, Vector Databases (pgvector), Embeddings.]
+      #v(0.3em)
+
+      *Automation & Integration* \
+      #text(size: 8.5pt)[n8n, Make, REST APIs, Webhooks, Slack integrations, JSON, Postman.]
+      #v(0.3em)
+
+      *Backend Development & Data* \
+      #text(size: 8.5pt)[Go (Golang), Java (Spring Boot), Python, JavaScript, SQL (PostgreSQL, SQL Server), GCP (BigQuery).]
+      #v(0.3em)
+
+      *CI/CD & Architecture* \
+      #text(size: 8.5pt)[GitHub Actions, Docker, Microservices, Event-Driven Architecture (RabbitMQ).]
+      #v(0.3em)
 
       *Languages* \
       Spanish (Native) \
-      English (Intermediate) \
-      Portuguese (Basic)
-      #v(0.5em)
-
-      *Software Development* \
-      Java, Spring Boot, Golang, NextJS, C, C++, JavaScript.
-      #v(0.5em)
-
-      *AI & Automation* \
-      N8n, OpenAI API, WhatsApp API, Kommo, Wati.
-      #v(0.5em)
-
-      *CRM Systems* \
-      Zoho CRM, Dynamics CRM.
-      #v(0.5em)
-
-      *Data, Cloud & Architecture* \
-      PostgreSQL, SQL Server, MongoDB, GCP, BigQuery.
-      #v(0.5em)
-
-      *Business Intelligence* \
-      Looker Studio, Power BI.
+      English (Professional / B2)
     ]
   ],
 
   // ================= RIGHT COLUMN =================
   [
-    #pad(x: 1.0cm, top: 2.5cm, bottom: 1.5cm)[
+    #pad(x: 0.8cm, top: 1.2cm, bottom: 1.0cm)[
       = Professional Profile
-      #v(0.5em)
-      Software Developer and Information Systems Engineering student, focused on understanding problems and delivering effective technological solutions. Experienced in designing scalable systems, automating processes, and developing integrations to optimize operations and communication flows, adapting to the specific needs of each project.
+      #v(0.3em)
+      Software Developer and Information Systems Engineering student (UTN FRBA), focused on understanding problems and delivering effective technological solutions. Experienced in designing scalable systems, automating processes, and developing integrations to optimize operations and communication flows, adapting to the specific needs of each project.
 
       = Work Experience
 
       #entry("Nucleo Marketing", "Oct. 2022 - Present (Remote)")
-      #role("Software Developer")
-      - Implemented 3 end-to-end Zoho CRM platforms for different clients.
-      - Developed and deployed communication channel unification services using Kommo and Wati for multiple clients.
-      - Developed 2 conversational bots in n8n integrating the OpenAI API, handling up to 70 daily queries.
-      - Automated complex workflows by consuming and integrating third-party REST APIs and custom scripts.
-      - Designed data storage and extraction architectures using relational SQL databases and Google Cloud Platform ecosystems, including BigQuery.
-      - Built 7 interactive dashboards (5 in Power BI, 2 in Looker Studio) for KPI tracking.
+      #role("AI & Software Developer")
+      - *Production Agents & Bots:* Designed and deployed LLM-powered agents (OpenAI API / n8n) to automate manual processes, customer support, and operational intake.
+      - *RAG & Data Pipelines:* Built automated ETL workflows and multi-format document ingestion into vector databases (pgvector) for hallucination-free semantic queries.
+      - *API & CRM Integration:* Connected agents and workflows with corporate CRMs (Zoho, Kommo) and third-party services via webhooks and REST APIs.
+      - *Databases & Security:* Designed relational persistence and Google Cloud (BigQuery) architectures, enforcing strict validation and access controls.
+      - *Monitoring & KPIs:* Built 7 dashboards in Power BI and Looker Studio for tracking operational metrics.
 
       #entry("Coordline (Precision Marketing)", "Jan. 2023 - Present (Remote)")
-      #role("Software Developer")
-      - Developed a bot using the WhatsApp API to optimize direct support in digital operations.
-      #role("CRM Analyst & Operator")
-      - Configured segments and campaigns in MS Dynamics CRM, managing contact analysis and registration.
-
+      #role("Software Developer & Process Analyst")
+      - Developed automated messaging bots using APIs to optimize direct support in digital operations.
+      - Designed contact automation workflows, audience segmentation, and lifecycle rules in Microsoft Dynamics CRM.
 
       = Featured Projects
 
-      #role(link("https://github.com/NicolasSchkurko/TPddsw-UTNFRBA-tiendasol-2025")[E-Commerce Platform (Node.js / React)])
-      Co-developed a Full Stack Serverless application, participating in the setup of CI/CD pipelines and non-relational data modeling.
+      #link("https://github.com/NicolasSchkurko/Spec-Growth")[#text(weight: "bold", fill: right-text-color)[Spec-Growth — AI Agent Harness & Governance (OpenCode / SDD)]] \
+      Developed a specification-based change management framework (Spec-Driven Development) to mitigate context drift in AI coding agents through deterministic gates, context isolation, and green test evidence.
 
-      #role(link("https://github.com/NicolasSchkurko/TPA-G3-DDS-2026")[Donations Platform — Microservices (Java / Spring Boot)])
-      Co-developed a four-service platform (donations, incentives, notifications and logistics) with one database per service, RabbitMQ integration and per-module CI, plus a documented technical backlog.
+      #v(0.2em)
+      #text(weight: "bold")[Autonomous Multi-Agent System & RAG Pipeline (n8n / pgvector / OpenAI)] \
+      Architected an agent system featuring an intent router, specialized subagents, deterministic database tools, and continuous synchronization from Google Drive to pgvector.
 
-      #role(link("https://github.com/NicolasSchkurko/DDS-tpa-2025-12")[NGO Collaborative Mapping (Java)])
-      Co-built a comprehensive platform applying MVC architecture. Implemented MySQL persistence and Full-Text searches.
+      #v(0.2em)
+      #link("https://github.com/NicolasSchkurko/TPA-G3-DDS-2026")[#text(weight: "bold", fill: right-text-color)[Distributed Microservices Platform (Java / Spring Boot / RabbitMQ / Docker)]] \
+      Co-developed an architecture of 4 microservices with asynchronous messaging, independent databases, Docker, and GitHub Actions CI/CD pipelines with 34 automated integration tests in Postman.
 
-      #role(link("https://github.com/NicolasSchkurko/limit-switch")[Limit-Switch — Google Forms Add-on (Google Apps Script)])
-      Built a free add-on that caps form responses with concurrency-safe handling, per-form settings and bilingual documentation; prepared for Marketplace publication.
-
-      #role(link("https://github.com/pdepjm/2024-o-tpjuego-ahmeestancodeando")[Video Game Development (Wollok)])
-      Collaboratively programmed a video game applying advanced OOP concepts. Awarded the "Most Creative Adaptation" special mention in the inter-university Wollok Game 2024 contest.
-
-      #role(link("https://github.com/NicolasSchkurko/Controlador_Termotanque_Solar_PF_ISJ/tree/main")[IoT Monitoring System (C / C++)])
-      Co-designed hardware and firmware for solar water heater control, resolving web telemetry integration between microcontrollers via serial protocol.
+      #v(0.2em)
+      #link("https://github.com/NicolasSchkurko/utn-tp-so-Go-2c-2024")[#text(weight: "bold", fill: right-text-color)[Concurrent Operating System Simulator (Go / Golang)]] \
+      Implemented concurrent modules in Go simulating CPU scheduling, paged virtual memory, and client-server socket communication.
 
       = Education
 
