@@ -28,25 +28,25 @@
     contact: "Contact",
   ),
 
-  profile: "Software developer with 4 years of experience building backend services, integrations and automation for marketing agencies. Fourth-year Information Systems Engineering student at UTN FRBA, with a background as an Electronics Technician. Recent work focuses on LLM agents, RAG pipelines, and open-source tooling for AI-assisted development. I document what I build so someone else can maintain it.",
+  profile: "Software developer since 2022, building backend services, integrations and automation for marketing agencies. Fourth-year Information Systems Engineering student at UTN FRBA, with a background as an Electronics Technician. Recent work focuses on LLM agents, RAG pipelines, and open-source tooling for AI-assisted development. I document what I build so someone else can maintain it.",
 
   experience: (
     (
       place: "Nucleo Marketing",
       date: "Oct. 2022 – Present · Remote",
-      role: "AI & Software Developer (primary role)",
+      role: "AI & Software Developer",
       bullets: (
-        "Deployed 3 Zoho CRM platforms end to end for different clients, plus channel unification services (Kommo, Wati) across multiple accounts.",
-        "Built 2 conversational bots in n8n over the OpenAI API, handling up to 70 queries per day.",
-        "Built RAG pipelines over pgvector (Supabase) for multi-format document intake and semantic search, with answers grounded in the ingested corpus.",
+        "Deployed 3 Zoho CRM platforms end to end and unified channels (Kommo, Wati) across accounts, including discovery and technical proposals.",
+        "Built 2 n8n bots over OpenAI, one with an intent router, 3 specialist agents and 6 catalog/stock tools; peaks of 70 queries/day.",
+        "Built RAG pipelines on Supabase/pgvector: Google Drive ingestion of PDF, Word, Excel and Docs with OCR, chunking and reindexing.",
         "Designed relational schemas (PostgreSQL, MySQL, SQL Server) and analytical queries on BigQuery; built 7 dashboards (5 Power BI, 2 Looker Studio).",
-        "Integrated third-party REST APIs and bidirectional webhooks; wrote middleware and automation in Node.js and JavaScript.",
+        "Integrated REST APIs and webhooks; synced e-commerce catalog, variants and stock to Supabase.",
       ),
     ),
     (
       place: "Coordline (Precision Marketing)",
       date: "Jan. 2023 – Present · Remote",
-      role: "Software Developer & Process Analyst (contractor)",
+      role: "Automation Specialist (contractor)",
       bullets: (
         "Built a WhatsApp Business API bot for direct support, lead qualification and automatic logging into Microsoft Dynamics CRM.",
         "Configured contact automation, audience segmentation and lifecycle rules in Dynamics CRM.",
@@ -81,17 +81,17 @@
       title: "Distributed Microservices Platform (2026): annual project, UTN FRBA",
       url: "https://github.com/NicolasSchkurko/TPA-G3-DDS-2026",
       bullets: (
-        "Co-developed 4 Spring Boot microservices with one MySQL database per service, RabbitMQ messaging, Docker Compose and GitHub Actions CI.",
+        "Co-developed 5 Spring Boot microservices (4 domain services + a Thymeleaf front), one MySQL database per service, RabbitMQ messaging, Docker Compose and GitHub Actions CI.",
         "Owned the incentives domain (profiles, ranking, bulk ingestion) and the repository's technical backlog documents.",
       ),
     ),
   ),
 
   skills: (
-    (label: "Languages", items: "Java, Go, JavaScript/TypeScript, C/C++, SQL, Kotlin"),
+    (label: "Languages", items: "Java, Go, JavaScript, C/C++, SQL, Kotlin"),
     (label: "Backend & Data", items: "Spring Boot, Node.js, REST APIs, PostgreSQL, MySQL, SQL Server, BigQuery, pgvector"),
     (label: "Cloud & DevOps", items: "Google Cloud, Cloudflare, Docker, GitHub Actions, RabbitMQ, OAuth 2.0, Git"),
-    (label: "Applied AI", items: "OpenAI API, Anthropic API, n8n, RAG, agent design, Vertex AI Vision (helmet detection POC)"),
+    (label: "Applied AI", items: "OpenAI API, n8n, RAG, agent design, Vertex AI Vision (helmet detection POC)"),
     (label: "Systems & Embedded", items: "ATmega328P, ESP8266, PlatformIO, KiCad, UART, SPI, I2C, HID"),
   ),
 

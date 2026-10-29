@@ -28,25 +28,25 @@
     contact: "Contacto",
   ),
 
-  profile: "Desarrollador de software con 4 años de experiencia construyendo servicios backend, integraciones y automatizaciones para agencias de marketing. Estudiante de 4.º año de Ingeniería en Sistemas de Información (UTN FRBA), con base de Técnico Electrónico. Trabajo reciente: agentes con LLMs, pipelines RAG y tooling open source para desarrollo asistido por IA. Documento lo que construyo para que otro pueda mantenerlo.",
+  profile: "Desarrollador de software desde 2022, construyendo servicios backend, integraciones y automatizaciones para agencias de marketing. Estudiante de 4.º año de Ingeniería en Sistemas de Información (UTN FRBA), con base de Técnico Electrónico. Trabajo reciente: agentes con LLMs, pipelines RAG y tooling open source para desarrollo asistido por IA. Documento lo que construyo para que otro pueda mantenerlo.",
 
   experience: (
     (
       place: "Nucleo Marketing",
       date: "Oct. 2022 – Actualidad · Remoto",
-      role: "AI & Software Developer (dedicación principal)",
+      role: "AI & Software Developer",
       bullets: (
-        "Implementé 3 plataformas Zoho CRM de punta a punta y servicios de unificación de canales (Kommo, Wati) en múltiples cuentas.",
-        "Desarrollé 2 bots conversacionales en n8n sobre la API de OpenAI, con hasta 70 consultas diarias.",
-        "Construí pipelines RAG sobre pgvector (Supabase) para ingesta de documentos multiformato y búsqueda semántica, con respuestas ancladas al corpus cargado.",
+        "Implementé 3 plataformas Zoho CRM de punta a punta y unifiqué canales (Kommo, Wati) en varias cuentas, con relevamiento y propuesta técnica.",
+        "Diseñé 2 bots en n8n sobre OpenAI, uno con router de intención, 3 agentes especializados y 6 herramientas de catálogo/stock; picos de 70 consultas diarias.",
+        "Construí pipelines RAG en Supabase/pgvector: ingesta desde Google Drive de PDF, Word, Excel y Docs con OCR, chunking y reindexado.",
         "Diseñé esquemas relacionales (PostgreSQL, MySQL, SQL Server) y consultas en BigQuery; construí 7 tableros (5 Power BI, 2 Looker Studio).",
-        "Integré APIs REST de terceros y webhooks bidireccionales; escribí middleware y automatizaciones en Node.js y JavaScript.",
+        "Integré APIs REST y webhooks; sincronicé catálogo, variantes y stock de e-commerce a Supabase.",
       ),
     ),
     (
       place: "Coordline (Marketing de Precisión)",
       date: "Ene. 2023 – Actualidad · Remoto",
-      role: "Desarrollador de Software & Analista de Procesos (contractor)",
+      role: "Automation Specialist (contractor)",
       bullets: (
         "Desarrollé un bot sobre WhatsApp Business API para soporte directo, calificación de prospectos y registro automático en Microsoft Dynamics CRM.",
         "Configuré automatización de contactos, segmentación de audiencias y reglas de ciclo de vida en Dynamics CRM.",
@@ -81,17 +81,17 @@
       title: "Plataforma de Microservicios Distribuida (2026): TP anual, UTN FRBA",
       url: "https://github.com/NicolasSchkurko/TPA-G3-DDS-2026",
       bullets: (
-        "Co-desarrollé 4 microservicios Spring Boot con una base MySQL por servicio, mensajería con RabbitMQ, Docker Compose y CI en GitHub Actions.",
+        "Co-desarrollé 5 microservicios Spring Boot (4 de dominio + un front con Thymeleaf), una base MySQL por servicio, RabbitMQ, Docker Compose y CI en GitHub Actions.",
         "Fui responsable del dominio de incentivos (perfiles, ranking, ingesta en lote) y de los documentos de deuda técnica del repositorio.",
       ),
     ),
   ),
 
   skills: (
-    (label: "Lenguajes", items: "Java, Go, JavaScript/TypeScript, C/C++, SQL, Kotlin"),
+    (label: "Lenguajes", items: "Java, Go, JavaScript, C/C++, SQL, Kotlin"),
     (label: "Backend y Datos", items: "Spring Boot, Node.js, APIs REST, PostgreSQL, MySQL, SQL Server, BigQuery, pgvector"),
     (label: "Cloud y DevOps", items: "Google Cloud, Cloudflare, Docker, GitHub Actions, RabbitMQ, OAuth 2.0, Git"),
-    (label: "IA aplicada", items: "OpenAI API, Anthropic API, n8n, RAG, diseño de agentes, Vertex AI Vision (POC de detección de cascos)"),
+    (label: "IA aplicada", items: "OpenAI API, n8n, RAG, diseño de agentes, Vertex AI Vision (POC de detección de cascos)"),
     (label: "Sistemas y Embebidos", items: "ATmega328P, ESP8266, PlatformIO, KiCad, UART, SPI, I2C, HID"),
   ),
 
