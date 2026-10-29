@@ -1,3 +1,6 @@
 check.py
 _pycache__/
 __pycache__/check.cpython-314.pyc
+
+# Postulaciones privadas: nunca se publican
+applications/
